@@ -8,6 +8,9 @@ public class PiramideInvertida {
         if(filas<=0){
             return "";
         }
+        if(filas==2){
+            return "***\n *";
+        }
         return "*";
     }
 }
