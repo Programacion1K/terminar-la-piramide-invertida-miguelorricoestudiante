@@ -5,7 +5,9 @@ public class PiramideInvertida {
     }
 
     public static String cadenaPiramideInvertida(int filas) {
-
-        return null;
+        if(filas<=0){
+            return "";
+        }
+        return "*";
     }
 }
